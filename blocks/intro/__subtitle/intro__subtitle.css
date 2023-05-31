@@ -5,6 +5,15 @@
   line-height: 26px;
   text-align: left;
   color: #fff;
-  margin: 40px 0 33px 0;
   padding: 0;
+}
+@media screen and (min-width: 425px) {
+  .intro__subtitle {
+    margin: 40px 0 33px 0;
+  }
+}
+@media screen and (max-width: 424px) {
+  .intro__subtitle {
+    margin: 37px 0 37px 0;
+  }
 }

@@ -7,19 +7,19 @@
   <meta name="keywords" content="HTML5, CSS, Yandex, Practicum, web-developer">
   <meta name="author" content="Anna Vetyugova">
   <link rel="stylesheet" href="./pages/index.css">
-  <title></title>
+  <title>Путешествия по России</title>
 </head>
 <body class="page">
   <header class="header">
     <img class="header__logo" src="./images/__logo.png" alt="Логотип макета: карта России и наименование страны">
     <ul class="header__lang-links">
-      <li class="header__lang-link">Ru</li>
-      <li class="header__lang-link">En</a></li>
+      <li><a href="#" class="header__lang-link header__lang-link_type_active link">Ru</a></li>
+      <li><a href="#" class="header__lang-link link">En</a></li>
     </ul> 
   </header>
   <main class="content">
     <section class="lead">
-      <h1 class="lead__title">Путешествия по России</h2>
+      <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
       <img class="lead__image" src="./images/lead-polka.jpg" alt="Женщина, лежащая на боку на нижней полке в поезде на боковом месте в сторону окна">
       <p class="lead__caption">Ваша полка — верхняя</p>
@@ -45,19 +45,19 @@
         </li>
       </ul> 
     </section>
-    <section class="photo-grid">
-      <img class="photo-grid__image" src="./images/photo-grid-train.jpg">
-      <img class="photo-grid__image" src="./images/photo-grid-atharva-tulsi.jpg">
-      <img class="photo-grid__image" src="./images/photo-grid-tuman.jpg">
-      <img class="photo-grid__image" src="./images/photo-grid-sochi.jpg">
-      <img class="photo-grid__image" src="./images/photo-grid-arisa.jpg">
-      <img class="photo-grid__image" src="./images/photo-grid-baikal.jpg">
-      <img class="photo-grid__image" src="./images/photo-grid-elbrus.jpg">
-      <img class="photo-grid__image" src="./images/photo-grid-kondratiev.jpg">
-      <img class="photo-grid__image" src="./images/photo-grid-kamchatka-1.jpg">
-      <img class="photo-grid__image" src="./images/photo-grid-kamchatka-2.jpg">
-      <img class="photo-grid__image" src="./images/photo-grid-baikal-2.jpg">
-      <img class="photo-grid__image" src="./images/photo-grid-ergaki.jpg">
+    <section class="photo-grid" aria-label="Блок с фотографими различных мест России">
+      <img class="photo-grid__image" src="./images/photo-grid-train.jpg" alt="Вид на озера из окна поезда">
+      <img class="photo-grid__image" src="./images/photo-grid-atharva-tulsi.jpg" alt="Вид на горы с облаками">
+      <img class="photo-grid__image" src="./images/photo-grid-tuman.jpg" alt="Раннее утро в поле, стелящийся туман, и волк на стоге сена">
+      <img class="photo-grid__image" src="./images/photo-grid-sochi.jpg" alt="Лес в горах, окутанный низкими облаками">
+      <img class="photo-grid__image" src="./images/photo-grid-arisa.jpg" alt="Колесо машны ни прозрачном льду">
+      <img class="photo-grid__image" src="./images/photo-grid-baikal.jpg" alt="Песчаный берег озера с горами вдалеке">
+      <img class="photo-grid__image" src="./images/photo-grid-elbrus.jpg" alt="Гора Эльбрус">
+      <img class="photo-grid__image" src="./images/photo-grid-kondratiev.jpg" alt="Знак Пешеходный переход">
+      <img class="photo-grid__image" src="./images/photo-grid-kamchatka-1.jpg" alt="Горы Камчатки в облаках">
+      <img class="photo-grid__image" src="./images/photo-grid-kamchatka-2.jpg" alt="Гора Камчатки">
+      <img class="photo-grid__image" src="./images/photo-grid-baikal-2.jpg" alt="Скалистый берег озера Байкал">
+      <img class="photo-grid__image" src="./images/photo-grid-ergaki.jpg" alt="Парк Ергаки">
     </section>
     <section class="places">
       <ul class="places__cards">
@@ -134,7 +134,6 @@
       <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__background" target="_blank">
         <h2 class="cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-        <div class="cover__overlay"></div>
       </a>
     </section>
   </main>
