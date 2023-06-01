@@ -1,5 +1,4 @@
 .cover__subtitle {
-  font-family: 'Inter';
   font-weight: 400;
   text-align: center;
   color: #fff;
@@ -7,25 +6,18 @@
   max-width: 360px;
   position: relative;
   z-index: 2;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 32px 0 0 0;
 }
-@media screen and (min-width: 768px) {
-  .cover__subtitle {
-    font-size: 18px;
-    line-height: 22px;
-    margin: 32px 0 0 0;
-  }
-}
-@media screen and (min-width: 425px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    margin: 32px 0 0 0;
   }
 }
 @media screen and (max-width: 424px) {
   .cover__subtitle {
-    font-size: 14px;
-    line-height: 16px;
-    margin: 16px 0 0 0;
+    margin-top: 16px;
   }
 }

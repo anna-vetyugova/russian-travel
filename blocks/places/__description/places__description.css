@@ -1,3 +1,6 @@
+.places__description {
+  margin: 0;
+}
 @media screen and (max-width: 424px) {
   .places__description {
     margin: 0 16px;
