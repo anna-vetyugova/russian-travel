@@ -13,4 +13,4 @@
   - блок "До Байкала «на собаках»";
 - "подвал" с навигацией и подписью. 
 
-GitHub Pages: https://anna-vetyugova.github.io/russian-travel/
+GitHub Pages: https://anna-vetyugova.github.io/russian-travel/index.html
