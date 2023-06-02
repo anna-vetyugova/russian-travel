@@ -11,8 +11,3 @@
     margin-top: 64px;
   }
 }
-@media screen and (max-width: 424px) {
-  .places {
-    margin-top: 64px;
-  }
-}
